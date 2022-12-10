@@ -1,0 +1,109 @@
+.dialog-wrapper {
+  // padding-left: 70px;
+  --swiper-theme-color: #67efff;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  top: 0;
+  z-index: 20;
+  .title {
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #67efff;
+  }
+  .swiper-slide {
+    img {
+      max-width: 100%;
+    }
+  }
+  .swiper-button-next {
+    right: 0px;
+  }
+  .swiper-button-prev {
+    left: 0px;
+  }
+  // .swiper-wrapper {
+  //   overflow: hidden;
+  //   width: 100%;
+  // }
+  .banner {
+    position: relative;
+    top: 0px;
+    margin: 0px auto 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .swiper {
+    padding: 30px 0px;
+  }
+}
+.dialog-content {
+  .banner {
+    img {
+      width: 100%;
+    }
+  }
+  h3 {
+    font-size: 20px;
+  }
+  ul {
+    background: #67efff;
+    padding: 20px;
+    li {
+      color: #000;
+      font-size: 15px;
+      padding-left: 0px;
+      list-style: square;
+    }
+  }
+}
+.dialog-lightbox {
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  right: 0;
+  left: 0;
+  padding-left: 70px;
+  padding-right: 20px;
+  z-index: 28;
+  @include rwd($md) {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.cross-btn {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  background: #67efff url(/src/assets/img/cross.svg) no-repeat center center;
+  background-size: 100%;
+  // border-radius: 50%;
+  z-index: 200;
+  // filter: invert(1);
+
+  position: fixed;
+  right: 0px;
+  @include rwd($md) {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+    top: 60px;
+  }
+}
+.swiper-slide {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #67efff;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  position: relative;
+  .title {
+    text-align: center;
+    width: 100%;
+  }
+}

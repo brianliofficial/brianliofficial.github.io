@@ -1,0 +1,129 @@
+//profile作品集區塊
+.profile {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  // width: 80%;
+  flex: 1;
+  padding-left: 50px;
+  flex-wrap: wrap;
+  // transition: all 5s ease;
+  @include rwd($md) {
+    width: 100%;
+    padding-top: 180px;
+    padding-left: 0;
+  }
+}
+.profile-article {
+  position: relative;
+  text-align: left;
+  padding: 0 10px;
+  z-index: 20;
+  flex: 1;
+  // padding-bottom:150px;
+  cursor: pointer;
+  @media only screen and (max-width: 769px) {
+    // padding-bottom:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &.extendAtricle {
+      padding-bottom: 100px;
+    }
+  }
+  li {
+    width: 31.3%;
+    height: auto;
+    display: inline-block;
+    margin: 0.5% 1%;
+    position: relative;
+    vertical-align: top;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    // &:nth-child(2n) {
+    //   top:30px;
+    //   vertical-align: top;
+    //   @media only screen and (max-width:769px) , only screen and (max-device-width:1024px){
+    //     top:0;
+    //   }
+    // }
+    &:hover {
+      filter: grayscale(0%);
+    }
+
+    @include rwd($md) {
+      width: 48%;
+    }
+    @media only screen and (max-width: 1024px) {
+      &.active {
+        filter: grayscale(0%);
+      }
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      &:nth-child(2n) {
+        top: 0;
+      }
+    }
+    a {
+      position: relative;
+      display: block;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(#000, 0.5);
+      overflow: hidden;
+      line-height: 0;
+      // padding-bottom:66%;
+      padding-bottom: 65%;
+      // @include size(100%, auto);
+      width: 100%;
+      height: auto;
+    }
+    span {
+      display: block;
+      padding: 10px 0;
+      // @include pie-clearfix;
+    }
+    .title {
+      color: #fff;
+      position: relative;
+      display: block;
+      border-radius: 5px;
+      z-index: 10;
+      float: left;
+    }
+    .date {
+      float: right;
+    }
+    img {
+      display: block;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      // @include size(100%, 100%);
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.more {
+  padding: 10px;
+  border-radius: 25px;
+  margin: 50px auto 10px;
+  display: block;
+  border: 1px solid #67efff;
+  width: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-align: center;
+  &:hover {
+    color: #000;
+    letter-spacing: 1.5rem;
+    background-color: #67efff;
+  }
+}

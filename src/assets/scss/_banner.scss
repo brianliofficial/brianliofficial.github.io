@@ -1,0 +1,245 @@
+.banner {
+  position: fixed;
+  overflow: hidden;
+  right: 0;
+  top: 20px;
+  transition: all 0.5s ease;
+  &.active {
+    opacity: 0.2;
+  }
+  @include rwd($md) {
+    width: 100%;
+    top: unset;
+  }
+}
+#index-banner-detail {
+  padding: 10px;
+  text-align: right;
+  line-height: 50px;
+
+  h1,
+  h4,
+  h6 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    padding-bottom: 30px;
+  }
+  h4 {
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width: 1300px) {
+    text-align: right;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  @include rwd($md) {
+    text-align: center;
+    h1 {
+      font-size: 1.8rem;
+    }
+    h4 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.change-title::after {
+  content: "FrontEnd Developer";
+  display: inline;
+  font-size: 1.8rem;
+  animation: write 10s linear infinite;
+  animation-fill-mode: forwards;
+}
+.splite {
+  position: relative;
+  animation: flash 0.2s linear infinite;
+}
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes write {
+  1% {
+    content: "D";
+  }
+  2% {
+    content: "De";
+  }
+  3% {
+    content: "Des";
+  }
+  4% {
+    content: "Desi";
+  }
+  5% {
+    content: "Desig";
+  }
+  6% {
+    content: "Design";
+  }
+  7% {
+    content: "Designe";
+  }
+  8% {
+    content: "Designer";
+  }
+
+  14% {
+    content: "Designer";
+  }
+  14.5% {
+    content: "Designe";
+  }
+  15% {
+    content: "Design";
+  }
+  15.5% {
+    content: "Desig";
+  }
+  16% {
+    content: "Desi";
+  }
+  16.5% {
+    content: "Des";
+  }
+  17% {
+    content: "De";
+  }
+  17.5% {
+    content: "D";
+  }
+  18% {
+    content: "";
+  }
+  20% {
+    content: "D";
+  }
+  21% {
+    content: "De";
+  }
+  22% {
+    content: "Dev";
+  }
+  23% {
+    content: "Deve";
+  }
+  24% {
+    content: "Devel";
+  }
+  25% {
+    content: "Develo";
+  }
+  26% {
+    content: "Develop";
+  }
+  27% {
+    content: "Develope";
+  }
+  28% {
+    content: "Developer";
+  }
+  34% {
+    content: "Developer";
+  }
+  35.5% {
+    content: "Develope";
+  }
+  36% {
+    content: "Develop";
+  }
+  36.5% {
+    content: "Develo";
+  }
+  37% {
+    content: "Devel";
+  }
+  37.5% {
+    content: "Deve";
+  }
+  38% {
+    content: "Dev";
+  }
+  38.5% {
+    content: "De";
+  }
+  39% {
+    content: "D";
+  }
+  39.5% {
+    content: "";
+  }
+  42% {
+    content: "";
+  }
+  43% {
+    content: "";
+  }
+  44% {
+    content: "F";
+  }
+  45% {
+    content: "Fr";
+  }
+  46% {
+    content: "Fro";
+  }
+  47% {
+    content: "Fron";
+  }
+  48% {
+    content: "Front";
+  }
+  49% {
+    content: "FrontE";
+  }
+  50% {
+    content: "FrontEn";
+  }
+  51% {
+    content: "FrontEnd";
+  }
+  52% {
+    content: "FrontEnd ";
+  }
+  52% {
+    content: "FrontEnd D";
+  }
+  53% {
+    content: "FrontEnd De";
+  }
+  54% {
+    content: "FrontEnd Dev";
+  }
+  55% {
+    content: "FrontEnd Deve";
+  }
+  56% {
+    content: "FrontEnd Devel";
+  }
+  57% {
+    content: "FrontEnd Develo";
+  }
+  58% {
+    content: "FrontEnd Develop";
+  }
+  59% {
+    content: "FrontEnd Develope";
+  }
+  60% {
+    content: "FrontEnd Developer";
+  }
+  100% {
+    content: "FrontEnd Developer";
+    opacity: 1;
+  }
+}

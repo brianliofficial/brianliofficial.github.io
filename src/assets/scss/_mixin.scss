@@ -1,0 +1,13 @@
+$xxl: 2048px; // web
+$xl: 1439px; // web-s
+$lg: 1024px; // pad
+$md: 768px; // pad-s
+$sm: 640px;
+$xs: 480px; // mobile
+$xxs: 360px; // mobile-s
+$primary: #005787;
+@mixin rwd($vw: $md, $limit: max-width) {
+  @media all and (#{$limit}: $vw) {
+    @content;
+  }
+}

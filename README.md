@@ -13,4 +13,3 @@
 - React.js
 - Javascript 
 - Html & Css & scss
-

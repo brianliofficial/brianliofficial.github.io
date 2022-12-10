@@ -1,0 +1,50 @@
+@import "rest";
+@import "mixin";
+@import "animate";
+@import "header";
+@import "banner";
+@import "profile";
+@import "select";
+@import "dialog";
+@import "aboutus";
+body {
+  background: #111e2c;
+  color: #67efff;
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      0.01deg,
+      transparent 99%,
+      hsla(0, 0%, 100%, 0.1)
+    );
+    background-size: 100vw 20vh;
+    z-index: -1;
+  }
+}
+#app {
+  position: relative;
+  @include rwd($md) {
+    padding-top: 60px;
+  }
+}
+.homepage {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  position: relative;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

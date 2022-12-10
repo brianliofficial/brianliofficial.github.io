@@ -1,0 +1,480 @@
+{
+  "events": [
+    {
+      "url": "",
+      "date": "2021/02",
+      "img": "https://miro.medium.com/max/700/1*gJGHE2L1Tu_akqVGXCpBOg@2x.jpeg",
+      "title": "rescure_animal_website",
+      "type": "url",
+      "name": "animalShelter"
+    },
+    {
+      "url": "",
+      "date": "2020/04",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/ebad6695360863.5e95ceac1fb8e.png",
+      "title": "CONVID_19_TRACKER",
+      "type": "url",
+      "name": "covidRecord"
+    },
+    {
+      "url": "https://medium.com/@brianli_42376/%E6%89%80%E4%BB%A5%E6%88%91%E5%80%91%E5%8F%88%E9%96%8B%E5%A7%8B%E8%A8%88%E5%8A%83%E5%8F%A6%E5%A4%96%E4%B8%80%E5%80%8B%E8%B3%AD%E5%8D%9A%E9%81%8A%E6%88%B2%E4%BE%86%E9%81%8A%E6%A8%82%E4%BA%86-429f270d22c4#.ppq0j7jg2",
+      "date": "2015/06",
+      "img": "events/monster-village3.gif",
+      "title": "Monster_village_Slot_machine",
+      "type": "articlelink",
+      "name": "Slotmachine"
+    },
+    {
+      "url": "https://medium.com/@brianli_42376/%E5%A6%96%E6%80%AA%E6%9D%91%E5%A4%A7%E6%A8%82%E9%80%8F-%E8%A3%BD%E4%BD%9C%E6%B5%81%E7%A8%8B-107b3400c3f8#.7usztpm6c",
+      "date": "2015/08",
+      "img": "events/lettory.jpg",
+      "title": "Monster_village_Lottery_game",
+      "type": "articlelink",
+      "name": "Lottery"
+    },
+    {
+      "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dd60be93020391.5e5a1aa0eacd1.jpg",
+      "date": "2018/11",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dd60be93020391.5e5a1aa0eacd1.jpg",
+      "title": "GAMA_GCMS",
+      "type": "url",
+      "name": "GCMS"
+    },
+    {
+      "url": "events/OCMS/gamebling/index/index.jpg",
+      "date": "2018/11",
+      "img": "events/OCMS/gamebling/index/index-tumb.jpg",
+      "title": "GAMA_STYLE_15",
+      "type": "image",
+      "name": "GamaStyle15",
+      "link": {
+        "linkurl": "https://www.chanabet555.com",
+        "activate": true
+      }
+    },
+    {
+      "url": "https://brain00021.github.io/bmi",
+      "date": "2019/02",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/73773295360863.5e95ceac1f433.png",
+      "title": "BMI",
+      "type": "samllproject",
+      "name": "smallproject"
+    },
+    {
+      "url": "events/OCMS/gamebling/index/index-v2-tumb.jpg",
+      "date": "2019/8",
+      "img": "events/OCMS/gamebling/index/index-v2-tumb.jpg",
+      "title": "GAMA_STYLE_02",
+      "type": "image",
+      "name": "GamaStyle02",
+      "link": {
+        "linkurl": "https://www.virgin88.com/",
+        "activate": true
+      }
+    },
+
+    {
+      "url": "events/OCMS/gamebling/index/index-fisher-tumb.jpg",
+      "date": "2018/8",
+      "img": "events/OCMS/gamebling/index/index-fisher-tumb.jpg",
+      "title": "GAMA_STYLE_11",
+      "type": "image",
+      "name": "GamaStyle11",
+      "link": {
+        "linkurl": "https://www.yingpla999.com/",
+        "activate": true
+      }
+    },
+    {
+      "url": "events/OCMS/gamebling/index/index-tgi-tumb.jpg",
+      "date": "2018/8",
+      "img": "events/OCMS/gamebling/index/index-tgi-tumb.jpg",
+      "title": "GAMA @ STYLE 13",
+      "type": "image",
+      "name": "GamaStyle13",
+      "link": {
+        "linkurl": "https://www.tigerii.com/",
+        "activate": true
+      }
+    },
+
+    {
+      "url": "events/alchcoin/alchcoin-tumb.jpg",
+      "date": "2017/5",
+      "img": "events/alchcoin/alchcoin-tumb.jpg",
+      "title": " Alchemycoin @ bitcoin ",
+      "type": "image",
+      "name": "Alchemycoin"
+    },
+    {
+      "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56eefc87785435.5e3259d778fd9.jpg",
+      "date": "2017/5",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56eefc87785435.5e3259d778fd9.jpg",
+      "title": " ClickNumLottery @ clickNum ",
+      "type": "url",
+      "name": "ClickNumLottery"
+    },
+
+    {
+      "url": "https://medium.com/@brianli_42376/monster-village-e-commerce-project-8fdb6379d150#.mc8rhivdp",
+      "date": "2016/4",
+      "img": "events/shopping_1.jpg",
+      "title": "  Monster Village @ E-commerence ",
+      "type": "articlelink",
+      "name": "Ecommerceshop"
+    },
+    {
+      "url": "events/sport/sport.jpg",
+      "date": "2015/11",
+      "img": "events/sport/sport-tumb.jpg",
+      "title": "  Monster Village @ Sport Festival",
+      "type": "image",
+      "name": "monstersportvote"
+    },
+    {
+      "url": "events/vote/phone.jpg",
+      "date": "2015/9",
+      "img": "events/vote/vote-tumbs.jpg",
+      "title": " Monster Village @ Taiwan Polite Festival ",
+      "type": "image",
+      "name": "monsterpolitevote"
+    },
+    {
+      "url": "events/mosiamask/all_mask.jpg",
+      "date": "2015/5",
+      "img": "events/mosiamask/index.jpg",
+      "title": "Monster Village @ Monster Mask Festival ",
+      "type": "image",
+      "name": "monstercustom"
+    },
+    {
+      "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/def89491481243.5e5a1aceb5825.jpg",
+      "date": "2015/4",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/def89491481243.5e5a1aceb5825.jpg",
+      "title": " Monster Village @ Ghost Festival ",
+      "type": "url",
+      "name": "MonsterSeekingGame"
+    },
+    {
+      "url": "https://brain00021.github.io/travel",
+      "date": "2019/04",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/be0c3495360863.5e95ceac201a6.png",
+      "title": "Kaoshung Travel",
+      "type": "samllproject",
+      "name": "smallproject"
+    },
+    {
+      "url": "https://brain00021.github.io/aqi",
+      "date": "2019/01",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/81910695360863.5e95ceac1ee09.png",
+      "title": "AQI",
+      "type": "samllproject",
+      "name": "smallproject"
+    }
+  ],
+  "uxdesign": [
+    {
+      "url": "https://medium.com/@brianli_42376/%E5%A6%96%E6%80%AA%E6%9D%91%E5%A4%A7%E6%A8%82%E9%80%8F-%E8%A3%BD%E4%BD%9C%E6%B5%81%E7%A8%8B-107b3400c3f8#.7usztpm6c",
+      "date": "2015/08",
+      "img": "events/lettory.jpg",
+      "title": " Monster Village@Lettory Game ",
+      "type": "iframe"
+    },
+    {
+      "url": "https://medium.com/@brianli_42376/%E6%89%80%E4%BB%A5%E6%88%91%E5%80%91%E5%8F%88%E9%96%8B%E5%A7%8B%E8%A8%88%E5%8A%83%E5%8F%A6%E5%A4%96%E4%B8%80%E5%80%8B%E8%B3%AD%E5%8D%9A%E9%81%8A%E6%88%B2%E4%BE%86%E9%81%8A%E6%A8%82%E4%BA%86-429f270d22c4#.ppq0j7jg2",
+      "date": "2015/06",
+      "img": "events/monster-village3.gif",
+      "title": " Monster Village @ Slot machine ",
+      "type": "iframe"
+    },
+    {
+      "url": "https://medium.com/@brianli_42376/monster-village-e-commerce-project-8fdb6379d150#.mc8rhivdp",
+      "date": "2016/4",
+      "img": "events/shopping_1.jpg",
+      "title": "  Monster Village @ E-commerence ",
+      "type": "iframe"
+    }
+  ],
+  "detail": [
+    {
+      "id": "GamaStyle11",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a03f25157669363.637d30144fe5c.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/f0aac6157669363.637d301450ee6.jpg",
+          "title": "Slotmachine Game"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/b89105157669363.637d30144edd2.jpg",
+          "title": "Ball Game"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a207b9157669363.637d30144dd23.jpg",
+          "title": "User Account Setting"
+        }
+      ]
+    },
+    {
+      "id": "Alchemycoin",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/776505158637395.638f5d8c552d3.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/18d397158637395.638f5d8c5609c.jpg",
+          "title": "RWD templage"
+        }
+      ]
+    },
+    {
+      "id": "monstercustom",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/9baa12158641439.638f69e488923.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5ce9ec158641439.638f69e48765d.jpg",
+          "title": "RWD templage"
+        }
+      ]
+    },
+    {
+      "id": "MonsterSeekingGame",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/52492a91481243.5e32cf9e44503.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/8f494991481243.5e32cf9e44f15.jpg",
+          "title": "Seeking Monster App"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/9bb35491481243.5e32cf9e45cb9.jpg",
+          "title": "Seeking Monster App"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a53cf391481243.5e32cf9e44a69.jpg",
+          "title": "Seeking Monster App"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/e1d21491481243.5e32cf9e464d2.jpg",
+          "title": "Seeking Monster App"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/06625e91481243.5e32cf9e4361b.jpg",
+          "title": "Seeking Monster App"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/c0529391481243.5e32cf9e45432.jpg",
+          "title": "Seeking Monster App"
+        }
+      ]
+    },
+    {
+      "id": "monsterpolitevote",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/9ce0ea158639537.638f6432d51d2.png",
+          "title": "HOMEPAGE"
+        }
+      ]
+    },
+    {
+      "id": "animalShelter",
+      "jobDescription": "<li><a href=`https://nissaanimalshelter.herokuapp.com/` target=`_blank`>link for side project</a></li><li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/7fb9c0157726285.637e30cf51fb5.png",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/2668c5157726285.637e30cf50e75.png",
+          "title": "Animal Shelter searching"
+        }
+      ]
+    },
+    {
+      "id": "monstersportvote",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Mokeup and Design wireframe web design</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/7a77d4157727099.637e34be6426d.jpg",
+          "title": "RWD templage"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/fcddda157727099.637e34be633a0.jpg",
+          "title": "HOMEPAGE"
+        }
+      ]
+    },
+    {
+      "id": "covidRecord",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Mokeup and Design wireframe web design</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/ebad6695360863.5e95ceac1fb8e.png",
+          "title": "RWD templage"
+        }
+      ]
+    },
+    {
+      "id": "GamaStyle15",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/8dafc6157721125.637e1f3f6ec2a.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/01d7b6157721125.637e1f3f7272b.jpg",
+          "title": "Game Page"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/22316b157721125.637e1f3f6fc9c.jpg",
+          "title": "Ball Game"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/339aec157721125.637e1f3f714ad.jpg",
+          "title": "member page"
+        }
+      ]
+    },
+    {
+      "id": "GCMS",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/abe7fc93020391.5e5a1aa0e9269.jpg",
+          "title": "Lottery Page"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e1fa893020391.5e5a1aa0ea682.jpg",
+          "title": "Member card Page"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19d6fc93020391.5e5a1aa0ea024.jpg",
+          "title": "Info Page"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c902d393020391.5e5a1aa0e9966.jpg",
+          "title": "Account History"
+        }
+      ]
+    },
+    {
+      "id": "ClickNumLottery",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e432987785435.5dc2b867cf5b8.jpg",
+          "title": "Home Page"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/baa84687785435.5dc2bc7cd86bf.jpg",
+          "title": "Click Num Website UserInterface Process"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ce8c9587785435.5dc2bc7cd8cef.jpg",
+          "title": "Info Page"
+        }
+      ]
+    },
+    {
+      "id": "nissashelter",
+      "jobDescription": "<li></li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/7fb9c0157726285.637e30cf51fb5.png",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/2668c5157726285.637e30cf50e75.png",
+          "title": "Adpotion page"
+        }
+      ]
+    },
+    {
+      "id": "GamaStyle13",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/8dafc6157721125.637e1f3f6ec2a.jpg",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/01d7b6157721125.637e1f3f7272b.jpg",
+          "title": "Slotmachine Game"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/22316b157721125.637e1f3f6fc9c.jpg",
+          "title": "Ball Game"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/339aec157721125.637e1f3f714ad.jpg",
+          "title": "User Account Setting"
+        }
+      ]
+    },
+    {
+      "id": "GamaStyle02",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/203f08157722047.637e227d70f63.jpg",
+          "title": "Template Style for different color"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/bba8f5157722047.637e227d76167.jpg",
+          "title": "HOME PAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/f8942f157722047.637e227d7524e.jpg",
+          "title": "Login PAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/c51d70157722047.637e227d6de23.jpg",
+          "title": "User Account Setting"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/5f2f9a157722047.637e227d73134.jpg",
+          "title": "Promote PAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/5aa050157722047.637e227d6ed89.jpg",
+          "title": "Ranking List"
+        },
+        {
+          "img": "https://media.giphy.com/media/gdTeHW70w8nbf9S57W/giphy.gif",
+          "title": "Promote PAGE"
+        },
+        {
+          "img": "https://media.giphy.com/media/J1WPuhagVHJSxl36OR/giphy.gif",
+          "title": "Create Card PAGE"
+        },
+        {
+          "img": "https://media.giphy.com/media/J1WPuhagVHJSxl36OR/giphy.gif",
+          "title": "Create Card PAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bd1fd7157722047.637e227d6fe12.png",
+          "title": "credit card error"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/39017d157722047.637e227d7213f.png",
+          "title": "credit card error2"
+        }
+      ]
+    }
+  ]
+}
