@@ -16,7 +16,7 @@ onBeforeMount(async () => {
       <div class="left">
         <div class="decoration"></div>
         <h1>Brian Li</h1>
-        <h4>Front end developer / UI Developer</h4>
+        <h4>Front end developer</h4>
         <hr />
         <h4>Profile</h4>
         <p>
@@ -114,15 +114,16 @@ onBeforeMount(async () => {
                 </li>
                 <ol>
                   <li>
-                    Created Bank “House mortgage calculator” Advertising
-                    commercial and “Real-time american stock” commercial and
-                    other animation landing page commercials increase bank’s
-                    register member
+                    Created bank advertising commercials and animation landing
+                    pages to increase register members.
                   </li>
                   <li>
-                    Update and Debug Online Course website for “Blog priority
-                    setting” and "Online course user admin page
-                    setting",”admin’s blog and course CSV export file setting”.
+                    Updated and debugged online course website, implementing
+                    blog priority setting and admin page configuration.
+                  </li>
+                  <li>
+                    Developed user-friendly interfaces for seamless navigation
+                    and enhanced user experience.
                   </li>
                 </ol>
               </ul>
@@ -132,23 +133,21 @@ onBeforeMount(async () => {
                 <li>
                   <h4><b>Network box | Hong Kong </b></h4>
                   <h5><b>Front-end developer </b></h5>
-                  <h6>March 2020 – Aug 2022</h6>
+                  <h6>March 2020 – Aug 2022 (2 years +)</h6>
                 </li>
                 <ol>
                   <li>
-                    Developed a mobile application for Cybersecurity,designed to
-                    provide event tables,graphic charts,dynamic filter forms,
-                    and real-time data widgets.The application is available for
-                    both iOS and Android mobile devices,ensuring accessibility
-                    and convenience.
+                    Developed a mobile application and responsive web design
+                    website for cybersecurity, incorporating real-time data
+                    widgets.
                   </li>
                   <li>
-                    Built a responsive web design website for
-                    Cybersecurity,incorporating event tables,graphic
-                    charts,dynamic filter forms, and real-time data widgets. The
-                    website ensures cross-browser compatibility,allowing users
-                    to access the information seamlessly across different
-                    browsers and devices.
+                    Implemented dynamic filter forms and graphic charts for
+                    intuitive data visualization.
+                  </li>
+                  <li>
+                    Ensured cross-browser compatibility and optimized website
+                    performance for optimal user experience.
                   </li>
                 </ol>
               </ul>
@@ -162,20 +161,19 @@ onBeforeMount(async () => {
                 </li>
                 <ol>
                   <li>
-                    Designed and developed an iGame CMS(Content Management
-                    System) with a focus on member services in casinos.The
-                    system included features such as “membership enrollment” and
-                    “point exchange”,providing a user-friendly for admin.
+                    Designed and developed an iGame CMS with member service
+                    features for casinos, including membership enrollment and
+                    point exchange.
                   </li>
                   <li>
-                    Designed and developed a centralized iGame website for
-                    marketing in Thailand.The website incorporated features such
-                    as game selection,user credit card settings, and lucky draw
-                    settings,catering specifically to the Thai market.
+                    Built a centralized iGame website for marketing in Thailand,
+                    featuring game selection, user credit card settings, and
+                    lucky draw settings.
                   </li>
                   <li>
-                    Implemented a diversity theme for iGame centralized website
-                    to efficiently customize the interface..
+                    Implemented a diversity theme to customize the interface
+                    efficiently, providing a visually appealing and personalized
+                    experience.
                   </li>
                 </ol>
               </ul>
@@ -183,31 +181,28 @@ onBeforeMount(async () => {
             <li class="year">
               <ul>
                 <li>
-                  <h4><b>Online game industry (gamefiler) | Taipei</b></h4>
-                  <h4><b>Hotel industry (monster village) | Nantou </b></h4>
+                  <h4>
+                    <b
+                      >Soft-world Tech and Monster Village Hotel | Taipei -
+                      Nantou, Taiwan
+                    </b>
+                  </h4>
                   <h5><b>Front-end designer</b></h5>
                   <h6>March 2013 – Nov 2015 (2 years +)</h6>
                 </li>
                 <ol>
                   <li>
                     Developed and maintained official online game websites,
-                    including creating animation commercials and optimizing
-                    landing pages for improved SEO.
+                    optimizing landing pages for improved SEO.
                   </li>
                   <li>
-                    Created digital marketing materials,such as EDMs and Google
-                    Banners,to attract and engage Hong Kong prospective
-                    customers and players in online games.
+                    Created digital marketing materials, including EDMs and
+                    Google Banners, to attract and engage prospective customers.
                   </li>
                   <li>
-                    Designed and developed lottery games that featured local
-                    souvenirs,boosting tourism in specific villages and
-                    attracting 80-150 additional visitors per game.
-                  </li>
-                  <li>
-                    Developed a slot machine to sell tourism inventory souvenirs
-                    during Chinese New Year,resulting in a weekly revenue
-                    increase of 500 pounds.
+                    Designed and developed lottery games featuring local
+                    souvenirs, boosting tourism and attracting additional
+                    visitors.
                   </li>
                 </ol>
               </ul>

@@ -40,12 +40,16 @@
   }
   h5 {
     font-size: 1.2rem;
+    margin-top: 10px;
   }
   h4 {
     margin: 0;
     margin-top: 20px;
     opacity: 0.8;
     font-weight: 400;
+  }
+  h6 {
+    margin-top: 10px;
   }
 
   a {
@@ -310,5 +314,13 @@
 
   .fill {
     background-color: #ff7168;
+  }
+}
+.year {
+  h5 {
+    margin: 15px 0;
+  }
+  h6 {
+    margin: 15px 0;
   }
 }
