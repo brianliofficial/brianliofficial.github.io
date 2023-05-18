@@ -231,12 +231,31 @@
 
     li {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding-top: 10px;
+      align-items: flex-start;
+      flex-direction: column;
+      h6 {
+        padding-left: 15px;
+        margin-bottom: 5px;
+      }
     }
   }
-
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    span {
+      background: #fff;
+      color: #999;
+      padding: 2px 5px;
+      border-radius: 5px;
+      margin: 5px;
+      &:hover {
+        background: rgb(0, 217, 255);
+        color: #fff;
+      }
+    }
+  }
   .value {
     height: 100%;
     width: 60%;
