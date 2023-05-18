@@ -71,17 +71,21 @@ onBeforeMount(async () => {
               </div>
             </li>
             <li>
-              <h4>System software</h4>
+              <h4>System software/Internet protocol:</h4>
               <h6>Proficiency</h6>
               <div class="tag-cloud">
                 <span>Git</span>
                 <span>Wordpress</span>
                 <span>webSocket</span>
+                <span>Github</span>
+                <span>Gitlab</span>
+                <span>restFul api</span>
               </div>
               <h6>Base</h6>
               <div class="tag-cloud">
-                <span>Node.js</span>
-                <span>D3.js</span>
+                <span>Docker</span>
+                <span>k8s</span>
+                <span>jenkins</span>>
               </div>
             </li>
             <li>
