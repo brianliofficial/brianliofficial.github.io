@@ -6,14 +6,9 @@ import dataUrl from "@/profiledata/index.json";
 import { useI18n } from "vue-i18n";
 import { throttle, getImageUrl } from "./plugin/common.js";
 import Dialog from "@/components/dialog.vue";
-import { react } from "@babel/types";
 const { locale, t } = useI18n({
   inheritLocale: true,
 });
-// import { fileURLToPath } from "url";
-// const __dirname = fileURLToPath(import.meta.url);
-// const dataUrl = require("@assets/data/profile.json");
-// const currentProfile = ref([]);
 const currentPageNum = ref(1);
 const bannerStatus = ref(false);
 const dialogStatus = ref(false);

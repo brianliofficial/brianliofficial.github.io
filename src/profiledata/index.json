@@ -1,6 +1,14 @@
 {
   "events": [
     {
+      "url": "https://myscheduleltd.com/",
+      "date": "2024/08",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/4de0d6214186535.67532e77d3212.png",
+      "title": "My Schedule official website",
+      "type": "articlelink",
+      "name": "myschedule"
+    },
+    {
       "url": "https://network-box.com/mobilesiem",
       "date": "2022/08",
       "img": "events/networkbox.png",
@@ -261,6 +269,20 @@
         {
           "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/c0529391481243.5e32cf9e45432.jpg",
           "title": "Seeking Monster App"
+        }
+      ]
+    },
+    {
+      "id": "myschedule",
+      "jobDescription": "<li>Design/Layout RWD web design FROM PSD To html.</li><li>Demonstrated development experience and mastery of interface design.</li><li>Cross-browser compatibility experience for all major browser.</li> <li>Cooperate with back-end developer and UI/UX designer.</li>",
+      "detailPage": [
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/409f08214186535.67532e77d40e3.png",
+          "title": "HOMEPAGE"
+        },
+        {
+          "img": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/3cda4d214186535.67532e77d38ef.png",
+          "title": "WORKPAGE"
         }
       ]
     },
