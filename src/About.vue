@@ -20,14 +20,8 @@ onBeforeMount(async () => {
         <hr />
         <h4>Profile</h4>
         <p>
-          I am a determined and adaptable front-end developer with 5 years of
-          experience. With a diverse background in digital marketing, iGaming,
-          and cybersecurity, I excel in creating seamless user experiences. I
-          analyze user behavior, understand their needs, and translate them into
-          intuitive interfaces. Collaborating closely with back-end developers,
-          I ensure smooth integration and functionality. I have delivered
-          exceptional results in digital commercials, customer management
-          systems, and dashboard/web app development.
+          I am a determined and flexible Front-End Developer with extensive experience in web design and development across multiple industries, including Gambling, Hotel, Online Courses, Security Servers, Online Games, and Digital Marketing.
+          My expertise is creating responsive, user-friendly interfaces for any device and implementing business strategies effectively into websites and apps.
         </p>
         <div class="block">
           <h2>Skill</h2>
@@ -85,7 +79,7 @@ onBeforeMount(async () => {
               <div class="tag-cloud">
                 <span>Docker</span>
                 <span>k8s</span>
-                <span>jenkins</span>>
+                <span>jenkins</span>
               </div>
             </li>
             <li>
@@ -112,22 +106,45 @@ onBeforeMount(async () => {
             <li class="year">
               <ul>
                 <li>
-                  <h4><b>Freelancer | United Kingdom </b></h4>
+                  <h4><b>Melodi | United Kingdom </b></h4>
                   <h5><b>Front-end developer </b></h5>
-                  <h6>Febuary 2023 - Present</h6>
+                  <h6>May 2023 - Present</h6>
                 </li>
                 <ol>
                   <li>
-                    Created bank advertising commercials and animation landing
-                    pages to increase register members.
+                    Enhanced website competition components with dynamic display and responsive design, integrating app and other domains requests.
                   </li>
                   <li>
-                    Updated and debugged online course website, implementing
-                    blog priority setting and admin page configuration.
+                    Implemented competition features such as promo codes, countdowns, ticket limits, and dynamic date labels.
                   </li>
                   <li>
-                    Developed user-friendly interfaces for seamless navigation
-                    and enhanced user experience.
+                    Developed the "My Account" page, including features like history records, phone verification, password settings, and personal information
+                  </li>
+                  <li>
+                    Debugged website issues and customized a redesign of the website.
+                  </li>
+                </ol>
+              </ul>
+            </li>
+            <li class="year">
+              <ul>
+                <li>
+                  <h4><b>Freelancer | United Kingdom </b></h4>
+                  <h5><b>Front-end developer </b></h5>
+                  <h6>Sep 2022 - April 2023</h6>
+                </li>
+                <ol>
+                  <li>
+                    Developed an online course article priority display and detailed page.
+                  </li>
+                  <li>
+                    Created a digital commercial bank website page, compatible across all devices, developed other commercial like data visualization tables for stock,and customized house mortgage rate calculators.
+                  </li>
+                  <li>
+                    Debugged online course page display errors and fixed commercial content inaccuracies..
+                  </li>
+                  <li>
+                    Developed a member management page for online courses, including purchase records, personal information, student feedback, and teacher reviews.
                   </li>
                 </ol>
               </ul>
@@ -141,17 +158,16 @@ onBeforeMount(async () => {
                 </li>
                 <ol>
                   <li>
-                    Developed a mobile application and responsive web design
-                    website for cybersecurity, incorporating real-time data
-                    widgets.
+                    implemented recursive dynamic form settings, including input fields, options, messages, and date inputs.
                   </li>
                   <li>
-                    Implemented dynamic filter forms and graphic charts for
-                    intuitive data visualization.
+                    Strengthened the responsiveness of dashboard widgets across all devices, visualizing data using APIs and WebSockets.
                   </li>
                   <li>
-                    Ensured cross-browser compatibility and optimized website
-                    performance for optimal user experience.
+                    Coded data visualizations including maps, tables, charts, and donut charts.
+                  </li>
+                  <li>
+                    Developed a mobile app version of the CyberSecurity System Dashboard.
                   </li>
                 </ol>
               </ul>
@@ -161,53 +177,25 @@ onBeforeMount(async () => {
                 <li>
                   <h4><b>Gama Technology | Taichung, Taiwan</b></h4>
                   <h5><b>Front-End Developer </b></h5>
-                  <h6>May 2017 – Sep 2019 (2 years +)</h6>
+                  <h6>May 2013 – Sep 2019 (5 years +)</h6>
                 </li>
                 <ol>
                   <li>
-                    Designed and developed an iGame CMS with member service
-                    features for casinos, including membership enrollment and
-                    point exchange.
+                    Built iGame platform pages for slot machines, poker, lottery, and sports
                   </li>
                   <li>
-                    Built a centralized iGame website for marketing in Thailand,
-                    featuring game selection, user credit card settings, and
-                    lucky draw settings.
+                    Developed iGame CMS settings, including filter options, optional fields, and responsive design elements.
                   </li>
                   <li>
-                    Implemented a diversity theme to customize the interface
-                    efficiently, providing a visually appealing and personalized
-                    experience.
-                  </li>
-                </ol>
-              </ul>
-            </li>
-            <li class="year">
-              <ul>
-                <li>
-                  <h4>
-                    <b
-                      >Soft-world Tech and Monster Village Hotel | Taipei -
-                      Nantou, Taiwan
-                    </b>
-                  </h4>
-                  <h5><b>Front-end designer</b></h5>
-                  <h6>March 2013 – Nov 2015 (2 years +)</h6>
-                </li>
-                <ol>
-                  <li>
-                    Developed and maintained official online game websites,
-                    optimizing landing pages for improved SEO.
+                    Customized the iGame website interface using responsive design with carousel and thumbnail banners for all devices.
                   </li>
                   <li>
-                    Created digital marketing materials, including EDMs and
-                    Google Banners, to attract and engage prospective customers.
+                    Created mobile animations, interactive widgets, and thumbnail swipers for a dynamic user experience.
                   </li>
                   <li>
-                    Designed and developed lottery games featuring local
-                    souvenirs, boosting tourism and attracting additional
-                    visitors.
+                    Designed digital marketing websites for hotel tourism and online game sales and official website, google commercial animation,EDM.
                   </li>
+                  <li>Developed a hotel gift shop booking system with contact info and gift categories.</li>
                 </ol>
               </ul>
             </li>
