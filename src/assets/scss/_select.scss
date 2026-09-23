@@ -22,6 +22,25 @@ select::-ms-expand {
   display: none;
 }
 /* Custom Select wrapper */
+.site-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  margin-left: 70px;
+  position: relative;
+  z-index: 30;
+  @include rwd($md) {
+    position: fixed;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  @include rwd(320px) {
+    margin-left: 70px;
+  }
+}
+
 .select {
   position: relative;
   display: flex;
@@ -30,16 +49,30 @@ select::-ms-expand {
   height: 30px;
   border-radius: 0.25em;
   overflow: hidden;
-  margin-top: 15px;
-  margin-left: 70px;
   z-index: 30;
-  @include rwd($md) {
-    position: fixed;
-    margin-left: 100px;
-    top: 0px;
-  }
-  @include rwd(320px) {
-    margin-left: 70px;
+}
+
+.theme-toggle {
+  display: flex;
+  height: 30px;
+  border-radius: 0.25em;
+  overflow: hidden;
+  border: 1px solid var(--page-fg);
+
+  button {
+    appearance: none;
+    border: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--page-fg);
+    font-size: 12px;
+    line-height: 30px;
+
+    &.active {
+      background: var(--page-fg);
+      color: var(--page-bg);
+    }
   }
 }
 /* Arrow */

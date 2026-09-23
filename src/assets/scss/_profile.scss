@@ -2,6 +2,9 @@
 .profile {
   position: relative;
   width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   z-index: 20;
   display: flex;
@@ -87,7 +90,7 @@
       // @include pie-clearfix;
     }
     .title {
-      color: #fff;
+      color: var(--title-color);
       position: relative;
       display: block;
       border-radius: 5px;
@@ -116,14 +119,15 @@
   border-radius: 25px;
   margin: 50px auto 10px;
   display: block;
-  border: 1px solid #67efff;
+  border: 1px solid var(--page-fg);
+  color: var(--page-fg);
   width: 50%;
   cursor: pointer;
   transition: all 0.5s ease;
   text-align: center;
   &:hover {
-    color: #000;
+    color: var(--page-bg);
     letter-spacing: 1.5rem;
-    background-color: #67efff;
+    background-color: var(--page-fg);
   }
 }

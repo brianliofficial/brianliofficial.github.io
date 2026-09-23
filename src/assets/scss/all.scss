@@ -7,9 +7,28 @@
 @import "select";
 @import "dialog";
 @import "aboutus";
+
+:root,
+[data-theme="dark"] {
+  --page-bg: #111e2c;
+  --page-fg: #67efff;
+  --title-color: #fff;
+  --logo-filter: invert(84%) sepia(31%) saturate(749%) hue-rotate(131deg)
+    brightness(103%) contrast(101%);
+}
+
+[data-theme="light"] {
+  --page-bg: #ffffff;
+  --page-fg: #0e2b49;
+  --title-color: #111e2c;
+  --logo-filter: invert(13%) sepia(28%) saturate(1600%) hue-rotate(181deg)
+    brightness(90%) contrast(95%);
+}
+
 body {
-  background: #111e2c;
-  color: #67efff;
+  background: var(--page-bg);
+  color: var(--page-fg);
+  transition: background-color 0.3s ease, color 0.3s ease;
   &:after {
     content: "";
     display: block;

@@ -1,47 +1,32 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import { onBeforeMount, ref, computed, reactive, onMounted } from "vue";
+import { onBeforeMount, ref, computed, reactive, onMounted, watch } from "vue";
 import dataUrl from "@/profiledata/index.json";
-import { useI18n } from "vue-i18n";
 import { throttle, getImageUrl } from "./plugin/common.js";
+import { listHashForFilter } from "./plugin/route.js";
+import { LIST_SEO, DEFAULT_SEO, setPageMeta } from "./plugin/seo.js";
 import Dialog from "@/components/dialog.vue";
-const { locale, t } = useI18n({
-  inheritLocale: true,
-});
-const currentPageNum = ref(1);
 const bannerStatus = ref(false);
 const dialogStatus = ref(false);
-const emit = defineEmits(["updateRoute"]);
-// const getImageUrl = (name) => {
-//   let path = name;
-//   if (name !== undefined && name.indexOf("http") !== -1) {
-//     return name;
-//   }
-//   const img = new URL(path, import.meta.url).href;
-//   return img;
-
-//   // }
-// };
 const props = defineProps({
   msg: String,
   projectName: {
     type: String,
     default: "allproject",
   },
+  projectId: {
+    type: String,
+    default: "",
+  },
 });
-console.log(dataUrl, "dataUrl");
 const profile = reactive({
   pageContent: 6,
   pageNum: 1,
   type: "",
   originProfile: [],
   profileButton: true,
-  //  tel: 0910xxxxxx,
   currentProfile: computed(() => {
     let currentData = [];
     if (props.projectName === "workproject") {
-      // let tempProfile = JSON.parse(JSON.stringify(profile.originProfile));
       currentData = profile.originProfile.filter(
         (item) => item.type === "url" || item.type === "image"
       );
@@ -56,8 +41,6 @@ const profile = reactive({
     return currentData;
   }),
   displayProfile: computed(() => {
-    // let dataLen = [];
-    // profile.updateProfileSetting(props.projectNmae);
     let start = profile.pageNum * profile.pageContent;
     let newListData = [];
     let dataLen = profile.currentProfile.length;
@@ -83,32 +66,16 @@ const profile = reactive({
     }
   },
 });
-onBeforeMount(async () => {
-  profile.originProfile = JSON.parse(JSON.stringify(dataUrl.events));
-  // profile.updateProfileSetting();
-  console.log("homeData", profile.displayProfile, dataUrl, props.projectNmae);
-});
-const handleScroll = async (event) => {
-  console.log("scroll", window);
-  if (window.scrollY > 0) {
-    bannerStatus.value = true;
-  } else {
-    // let temp = bannerStatus.value;
-    bannerStatus.value = false;
-  }
-};
-onMounted(async () => {
-  window.addEventListener("scroll", throttle(handleScroll));
-});
 
-const isDialogVisible = (status) => {
-  return (dialogStatus.value = status);
+const applyListSeo = () => {
+  const listMeta = LIST_SEO[props.projectName] || LIST_SEO.allproject;
+  setPageMeta(listMeta || DEFAULT_SEO);
 };
-const dialogData = ref({});
-const getDialogData = (item) => {
-  let { name, title, link, img, type } = item;
-  let { jobDescription, detailPage } =
-    dataUrl.detail.find((item) => item.id === name) || {};
+
+const openDialog = (item) => {
+  const { name, title, link, img, type } = item;
+  const detail = dataUrl.detail.find((entry) => entry.id === name) || {};
+  const { jobDescription, detailPage, seo } = detail;
 
   dialogData.value = {
     name,
@@ -118,10 +85,84 @@ const getDialogData = (item) => {
     type,
     jobDescription,
     detailPage,
+    seo,
   };
-  console.log("getDialogData", dialogData);
-  isDialogVisible(true);
+  dialogStatus.value = true;
+  setPageMeta({
+    title: seo?.title,
+    description: seo?.description,
+    keywords: seo?.keywords,
+    image: img,
+  });
 };
+
+const dialogData = ref({});
+const getDialogData = (item) => {
+  openDialog(item);
+  const nextHash = `#/workproject/${item.name}`;
+  if (window.location.hash !== nextHash) {
+    window.location.hash = nextHash;
+  }
+};
+
+const syncDialogFromRoute = () => {
+  if (!props.projectId) {
+    dialogStatus.value = false;
+    applyListSeo();
+    return;
+  }
+
+  const item = profile.originProfile.find(
+    (entry) => entry.name === props.projectId
+  );
+  if (item && (item.type === "url" || item.type === "image")) {
+    openDialog(item);
+    return;
+  }
+
+  dialogStatus.value = false;
+  applyListSeo();
+};
+
+const isDialogVisible = (status) => {
+  dialogStatus.value = status;
+  if (status) return;
+
+  applyListSeo();
+  const listHash = listHashForFilter(props.projectName);
+  if (window.location.hash !== listHash) {
+    window.location.hash = listHash;
+  }
+};
+
+onBeforeMount(() => {
+  profile.originProfile = JSON.parse(JSON.stringify(dataUrl.events));
+  syncDialogFromRoute();
+});
+
+watch(
+  () => props.projectName,
+  () => {
+    profile.pageNum = 1;
+    if (!props.projectId) {
+      applyListSeo();
+    }
+  }
+);
+
+watch(
+  () => props.projectId,
+  () => {
+    syncDialogFromRoute();
+  }
+);
+
+const handleScroll = () => {
+  bannerStatus.value = window.scrollY > 0;
+};
+onMounted(() => {
+  window.addEventListener("scroll", throttle(handleScroll));
+});
 </script>
 
 <template>
@@ -183,9 +224,6 @@ const getDialogData = (item) => {
   >
     MORE
   </div>
-  <!-- </div> -->
-
-  <!-- <Swiper></Swiper> -->
 </template>
 
 <style scoped></style>

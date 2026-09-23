@@ -1,13 +1,13 @@
 .aboutus-wrapper {
   text-align: left;
-  color: #fff;
-  background: linear-gradient(to top, #0e2b49, #111e2c);
+  color: var(--title-color);
+  background: var(--page-bg);
   .resume {
     padding: 50px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left, #0e2b49, #111e2c);
-    color: rgba(255, 255, 255, 0.95);
+    background: var(--page-bg);
+    color: var(--page-fg);
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -53,7 +53,7 @@
   }
 
   a {
-    color: white;
+    color: var(--title-color);
     text-decoration: none;
   }
 
@@ -126,7 +126,7 @@
     h4 {
       margin-top: 0;
       b {
-        color: #fff;
+        color: var(--title-color);
       }
     }
     > li {

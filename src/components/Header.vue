@@ -28,7 +28,7 @@ const updateProfile = (profilename) => {
 <template>
   <div class="header">
     <div class="header_body">
-      <a class="icon" href="/">
+      <a class="icon" href="#/" @click="updateProfile('allproject')">
         <img src="@/assets/img/logo.svg" alt="首頁" />
       </a>
       <div id="toggle" @click="toggle" :class="{ on: triggleStatus }">
@@ -56,7 +56,7 @@ const updateProfile = (profilename) => {
       <div id="menu-wrapper">
         <ul class="menu-main-wrapper">
           <li>
-            <a href="/" @click="updateProfile('allproject')">{{
+            <a href="#/" @click="updateProfile('allproject')">{{
               $t("allproject")
             }}</a>
           </li>

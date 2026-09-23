@@ -5,6 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="/src/assets/img/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian Li Profile</title>
+    <meta
+      name="description"
+      content="Brian Li frontend portfolio: RWD web design, work projects, and articles across Vue, React, and responsive UI."
+    />
+    <meta
+      name="keywords"
+      content="Brian Li, frontend, portfolio, RWD, Vue, React, web design, WorkProject"
+    />
+    <meta property="og:title" content="Brian Li Profile" />
+    <meta
+      property="og:description"
+      content="Brian Li frontend portfolio: RWD web design, work projects, and articles across Vue, React, and responsive UI."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      (function () {
+        var theme = localStorage.getItem("site-theme");
+        document.documentElement.setAttribute(
+          "data-theme",
+          theme === "light" ? "light" : "dark"
+        );
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>
